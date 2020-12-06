@@ -16,6 +16,8 @@ class Bird extends BaseClass {
       var position = [this.body.position.x, this.body.position.y];
       this.trajectory.push(position);
     }
+
+
    
 
     for(var i=0; i<this.trajectory.length; i++){
